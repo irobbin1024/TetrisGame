@@ -287,6 +287,8 @@
 		6EF1304B1903DC2F00995257 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF1304A1903DC2F00995257 /* EventKit.framework */; };
 		6EF1304D1903DC4B00995257 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF1304C1903DC4B00995257 /* libsqlite3.dylib */; };
 		6EF1304F1903DC7200995257 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF1304E1903DC7200995257 /* SystemConfiguration.framework */; };
+		6EF130531903E98600995257 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EF130511903E98600995257 /* pause.png */; };
+		6EF130541903E98600995257 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EF130521903E98600995257 /* play.png */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712461292920000B8313A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB212928DE900B8313A /* libxml2.dylib */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
@@ -869,6 +871,8 @@
 		6EF1304A1903DC2F00995257 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
 		6EF1304C1903DC4B00995257 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		6EF1304E1903DC7200995257 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6EF130511903E98600995257 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		6EF130521903E98600995257 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB212928DE900B8313A /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -2109,6 +2113,8 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6EF130511903E98600995257 /* pause.png */,
+				6EF130521903E98600995257 /* play.png */,
 				6E9381F518FAD5AB0092C616 /* menu_background.jpg */,
 				6E9381F618FAD5AB0092C616 /* score_background.jpg */,
 				6E9381F718FAD5AB0092C616 /* shap */,
@@ -2216,8 +2222,10 @@
 				6EF130051903D1A700995257 /* UMSocialLocalizable.strings in Resources */,
 				6EF1300B1903D1A700995257 /* UMShareEditViewControlleriPad.xib in Resources */,
 				6EF1300E1903D1A700995257 /* UMSShareListController.xib in Resources */,
+				6EF130541903E98600995257 /* play.png in Resources */,
 				6EF1300F1903D1A700995257 /* UMSocialSDKResourcesNew.bundle in Resources */,
 				6E93820918FAD5AB0092C616 /* yellow.png in Resources */,
+				6EF130531903E98600995257 /* pause.png in Resources */,
 				6E93820318FAD5AB0092C616 /* dq.png in Resources */,
 				6E93820218FAD5AB0092C616 /* score_background.jpg in Resources */,
 				6EF130181903D1A700995257 /* ios-social-sdk-shake.html in Resources */,

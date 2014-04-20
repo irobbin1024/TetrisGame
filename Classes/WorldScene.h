@@ -8,6 +8,7 @@
 #define COLS 10
 #define ROWS 15
 #define SCORE_LABEL_TAG 101
+#define PASUMENU_MENU_TAG 102
 
 class World : public cocos2d::CCLayer
 {
@@ -77,6 +78,12 @@ private:
     void playBitDead(CCSprite * bit);
     // 死亡动画播放完执行回调删除方块
     void playBitDeadCallback(CCNode * node);
+    // 更新分数信息
+    void updateAndShowScore();
+    // 暂停 回调
+    void pauseCallback();
+    // 恢复 回调
+    void playCallback();
 
     virtual ~World();
 };

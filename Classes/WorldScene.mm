@@ -50,7 +50,7 @@ bool World::init()
         return false;
     }
     
-    
+    CCSize size = CCDirector::sharedDirector()->getWinSize();
     
     world = this;
     _hero = new Hero;
@@ -60,11 +60,18 @@ bool World::init()
     CocosDenshion::SimpleAudioEngine::sharedEngine()->playBackgroundMusic("other/gameMusic.mp3", true);
     
     // 显示分数label
-    CCLabelTTF * scoreLabel = CCLabelTTF::create("", "Helvetica-Bold", 30);
+    CCLabelTTF * scoreLabel = CCLabelTTF::create("", "Helvetica-Bold", 50);
     scoreLabel->setTag(SCORE_LABEL_TAG);
     this->addChild(scoreLabel);
     updateAndShowScore();
     
+    // 创建暂停按钮
+    CCMenuItemImage * pasuMenu = CCMenuItemImage::create("pause.png", "pause.png", this, menu_selector(World::pauseCallback));
+    pasuMenu->setPosition(ccp(0, 0));
+    CCMenu* menu =CCMenu::create(pasuMenu, NULL);
+    menu->setPosition(ccp(size.width - pasuMenu->getContentSize().width * 0.5 - 10, size.height - pasuMenu->getContentSize().height * 0.5 - 5));
+    menu->setTag(PASUMENU_MENU_TAG);
+    this->addChild(menu);
     
     deadTetromino = CCArray::create();
     CC_SAFE_RETAIN(deadTetromino);
@@ -75,6 +82,27 @@ bool World::init()
     return true;
 }
 
+void World::pauseCallback() {
+    CCMenu * menu = (CCMenu *)this->getChildByTag(PASUMENU_MENU_TAG);
+    menu->removeAllChildren();
+    CCMenuItemImage * playMenu = CCMenuItemImage::create("play.png", "play.png", this, menu_selector(World::playCallback));
+    menu->addChild(playMenu);
+    
+    CocosDenshion::SimpleAudioEngine::sharedEngine()->pauseBackgroundMusic();
+    CCDirector::sharedDirector()->pause();
+    
+}
+
+void World::playCallback() {
+    CCMenu * menu = (CCMenu *)this->getChildByTag(PASUMENU_MENU_TAG);
+    menu->removeAllChildren();
+    CCMenuItemImage * pauseMenu = CCMenuItemImage::create("pause.png", "pause.png", this, menu_selector(World::pauseCallback));
+    menu->addChild(pauseMenu);
+    
+    CocosDenshion::SimpleAudioEngine::sharedEngine()->resumeBackgroundMusic();
+    CCDirector::sharedDirector()->resume();
+}
+
 void World::updateAndShowScore() {
     CCSize size = CCDirector::sharedDirector()->getWinSize();
     
@@ -82,7 +110,7 @@ void World::updateAndShowScore() {
     CCString  scoreString = "";
     scoreString.initWithFormat("score：%ld", _hero->getScore());
     scoreLabel->setString(scoreString.getCString());
-    scoreLabel->setPosition(ccp(scoreLabel->getContentSize().width * 0.5 + 20, size.height -  scoreLabel->getContentSize().height * 0.5 - 20));
+    scoreLabel->setPosition(ccp(scoreLabel->getContentSize().width * 0.5 + 20, size.height -  scoreLabel->getContentSize().height * 0.5 - 40));
 }
 
 
@@ -245,6 +273,8 @@ void World::disappear() {
     }
     
     if (rows > 0) CCLog("disapear count %d", rows);
+    
+    updateAndShowScore();
 }
 
 void World::playBitDead(cocos2d::CCSprite *bit) {
