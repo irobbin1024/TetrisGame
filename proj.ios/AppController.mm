@@ -3,6 +3,7 @@
 #import "cocos2d.h"
 #import "AppDelegate.h"
 #import "RootViewController.h"
+#import "ShareManger.h"
 
 @implementation AppController
 
@@ -32,6 +33,11 @@ static AppDelegate s_sharedApplication;
     viewController = [[RootViewController alloc] initWithNibName:nil bundle:nil];
     viewController.wantsFullScreenLayout = YES;
     viewController.view = __glView;
+    
+    // 友盟社会化组件初始化
+    ShareManger * shareManger = ShareManger::instance();
+    shareManger->setAppKey("5346405656240b070b101c6d");
+    shareManger->setUIViewController(viewController);
 
     // Set RootViewController to window
     if ( [[UIDevice currentDevice].systemVersion floatValue] < 6.0)
