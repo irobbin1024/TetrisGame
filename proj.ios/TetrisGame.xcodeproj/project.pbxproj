@@ -267,6 +267,26 @@
 		6EF1301A1903D1A700995257 /* libSocialWechat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF12FFD1903D1A700995257 /* libSocialWechat.a */; };
 		6EF1301B1903D1A700995257 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF12FFE1903D1A700995257 /* libWeChatSDK.a */; };
 		6EF1301C1903D1A700995257 /* libSocialYiXin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF130031903D1A700995257 /* libSocialYiXin.a */; };
+		6EF1302B1903DA0500995257 /* ADManger.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6EF1301D1903DA0500995257 /* ADManger.mm */; };
+		6EF1302C1903DA0500995257 /* MyDMInterstitialAdControllerDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6EF1301F1903DA0500995257 /* MyDMInterstitialAdControllerDelegate.mm */; };
+		6EF1302D1903DA0500995257 /* DomobAdSDKBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6EF130291903DA0500995257 /* DomobAdSDKBundle.bundle */; };
+		6EF1302E1903DA0500995257 /* libDomobAdSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF1302A1903DA0500995257 /* libDomobAdSDK.a */; };
+		6EF130311903DB8A00995257 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF130301903DB8A00995257 /* Security.framework */; };
+		6EF130331903DB9300995257 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF130321903DB9300995257 /* CoreTelephony.framework */; };
+		6EF130351903DB9C00995257 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF130341903DB9C00995257 /* MessageUI.framework */; };
+		6EF130371903DBA500995257 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF130361903DBA500995257 /* CFNetwork.framework */; };
+		6EF130391903DBB700995257 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF130381903DBB700995257 /* MobileCoreServices.framework */; };
+		6EF1303B1903DBCB00995257 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF1303A1903DBCB00995257 /* CoreMedia.framework */; };
+		6EF1303D1903DBD800995257 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF1303C1903DBD800995257 /* MediaPlayer.framework */; };
+		6EF1303F1903DBEB00995257 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF1303E1903DBEB00995257 /* CoreText.framework */; };
+		6EF130411903DBF400995257 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF130401903DBF400995257 /* AdSupport.framework */; };
+		6EF130431903DBFD00995257 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF130421903DBFD00995257 /* CoreLocation.framework */; };
+		6EF130451903DC0600995257 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF130441903DC0600995257 /* StoreKit.framework */; };
+		6EF130471903DC0E00995257 /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF130461903DC0E00995257 /* PassKit.framework */; };
+		6EF130491903DC1700995257 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF130481903DC1700995257 /* Social.framework */; };
+		6EF1304B1903DC2F00995257 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF1304A1903DC2F00995257 /* EventKit.framework */; };
+		6EF1304D1903DC4B00995257 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF1304C1903DC4B00995257 /* libsqlite3.dylib */; };
+		6EF1304F1903DC7200995257 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF1304E1903DC7200995257 /* SystemConfiguration.framework */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712461292920000B8313A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB212928DE900B8313A /* libxml2.dylib */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
@@ -821,6 +841,34 @@
 		6EF130011903D1A700995257 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		6EF130031903D1A700995257 /* libSocialYiXin.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialYiXin.a; sourceTree = "<group>"; };
 		6EF130041903D1A700995257 /* UMSocialYiXinHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialYiXinHandler.h; sourceTree = "<group>"; };
+		6EF1301D1903DA0500995257 /* ADManger.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ADManger.mm; path = ../Classes/ADManger.mm; sourceTree = "<group>"; };
+		6EF1301E1903DA0500995257 /* ADManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADManger.h; path = ../Classes/ADManger.h; sourceTree = "<group>"; };
+		6EF1301F1903DA0500995257 /* MyDMInterstitialAdControllerDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MyDMInterstitialAdControllerDelegate.mm; path = ../Classes/MyDMInterstitialAdControllerDelegate.mm; sourceTree = "<group>"; };
+		6EF130201903DA0500995257 /* MyDMInterstitialAdControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyDMInterstitialAdControllerDelegate.h; path = ../Classes/MyDMInterstitialAdControllerDelegate.h; sourceTree = "<group>"; };
+		6EF130221903DA0500995257 /* DMAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMAdView.h; sourceTree = "<group>"; };
+		6EF130231903DA0500995257 /* DMFeedsAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMFeedsAdView.h; sourceTree = "<group>"; };
+		6EF130241903DA0500995257 /* DMInterstitialAdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMInterstitialAdController.h; sourceTree = "<group>"; };
+		6EF130251903DA0500995257 /* DMRTSplashAdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMRTSplashAdController.h; sourceTree = "<group>"; };
+		6EF130261903DA0500995257 /* DMSplashAdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMSplashAdController.h; sourceTree = "<group>"; };
+		6EF130271903DA0500995257 /* DMTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMTools.h; sourceTree = "<group>"; };
+		6EF130291903DA0500995257 /* DomobAdSDKBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DomobAdSDKBundle.bundle; sourceTree = "<group>"; };
+		6EF1302A1903DA0500995257 /* libDomobAdSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDomobAdSDK.a; sourceTree = "<group>"; };
+		6EF130301903DB8A00995257 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		6EF130321903DB9300995257 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		6EF130341903DB9C00995257 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		6EF130361903DBA500995257 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		6EF130381903DBB700995257 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		6EF1303A1903DBCB00995257 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		6EF1303C1903DBD800995257 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		6EF1303E1903DBEB00995257 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		6EF130401903DBF400995257 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		6EF130421903DBFD00995257 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6EF130441903DC0600995257 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		6EF130461903DC0E00995257 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
+		6EF130481903DC1700995257 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		6EF1304A1903DC2F00995257 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		6EF1304C1903DC4B00995257 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		6EF1304E1903DC7200995257 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB212928DE900B8313A /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -836,28 +884,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EF1304F1903DC7200995257 /* SystemConfiguration.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				6EF1304D1903DC4B00995257 /* libsqlite3.dylib in Frameworks */,
+				D44C6210132DFF4E0009C878 /* AudioToolbox.framework in Frameworks */,
+				D44C620E132DFF430009C878 /* AVFoundation.framework in Frameworks */,
+				6EF1304B1903DC2F00995257 /* EventKit.framework in Frameworks */,
+				6EF130491903DC1700995257 /* Social.framework in Frameworks */,
+				6EF130471903DC0E00995257 /* PassKit.framework in Frameworks */,
+				6EF130451903DC0600995257 /* StoreKit.framework in Frameworks */,
+				6EF130431903DBFD00995257 /* CoreLocation.framework in Frameworks */,
+				6EF130411903DBF400995257 /* AdSupport.framework in Frameworks */,
+				6EF1303F1903DBEB00995257 /* CoreText.framework in Frameworks */,
+				BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */,
+				6EF1303D1903DBD800995257 /* MediaPlayer.framework in Frameworks */,
+				6EF1303B1903DBCB00995257 /* CoreMedia.framework in Frameworks */,
+				BF1712471292920000B8313A /* libz.dylib in Frameworks */,
+				6EF130391903DBB700995257 /* MobileCoreServices.framework in Frameworks */,
+				6EF130371903DBA500995257 /* CFNetwork.framework in Frameworks */,
+				6EF130351903DB9C00995257 /* MessageUI.framework in Frameworks */,
+				6EF130331903DB9300995257 /* CoreTelephony.framework in Frameworks */,
+				6EF130311903DB8A00995257 /* Security.framework in Frameworks */,
 				15A3DA6A1682F886002FB0C5 /* libcocos2dx.a in Frameworks */,
 				6EF130131903D1A700995257 /* TencentOpenAPI.framework in Frameworks */,
+				6EF1302E1903DA0500995257 /* libDomobAdSDK.a in Frameworks */,
 				6EF1301C1903D1A700995257 /* libSocialYiXin.a in Frameworks */,
 				1ACB3244164770DE00914215 /* libcurl.a in Frameworks */,
 				6EF130061903D1A700995257 /* libUMSocial_Sdk_3.3.6.a in Frameworks */,
 				6EF130151903D1A700995257 /* libSocialTwitter.a in Frameworks */,
-				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				6EF1301B1903D1A700995257 /* libWeChatSDK.a in Frameworks */,
 				6EF130171903D1A700995257 /* libUMSocial_Sdk_ScreenShot_1.0.a in Frameworks */,
-				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
-				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
 				6EF130121903D1A700995257 /* libSocialLaiWang.a in Frameworks */,
 				6EF1301A1903D1A700995257 /* libSocialWechat.a in Frameworks */,
 				BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */,
 				6EF130101903D1A700995257 /* libSocialFacebook.a in Frameworks */,
 				BF1712461292920000B8313A /* libxml2.dylib in Frameworks */,
-				BF1712471292920000B8313A /* libz.dylib in Frameworks */,
-				BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */,
 				6EF130111903D1A700995257 /* libSocialInstagram.a in Frameworks */,
 				D44C620C132DFF330009C878 /* OpenAL.framework in Frameworks */,
-				D44C620E132DFF430009C878 /* AVFoundation.framework in Frameworks */,
-				D44C6210132DFF4E0009C878 /* AudioToolbox.framework in Frameworks */,
 				6EF130191903D1A700995257 /* libUMSocial_Sdk_Shake_1.0.a in Frameworks */,
 				1AB8703C175E0A92005D39BF /* libwebsockets.a in Frameworks */,
 			);
@@ -1358,6 +1423,11 @@
 		15AA9C4015B7EC450033D6C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				6EF1301D1903DA0500995257 /* ADManger.mm */,
+				6EF1301E1903DA0500995257 /* ADManger.h */,
+				6EF1301F1903DA0500995257 /* MyDMInterstitialAdControllerDelegate.mm */,
+				6EF130201903DA0500995257 /* MyDMInterstitialAdControllerDelegate.h */,
+				6EF130211903DA0500995257 /* DomobAdSDK */,
 				6EF12FC91903D1A700995257 /* UMSocial_Sdk_3.3.6 */,
 				6EF12FE41903D1A700995257 /* UMSocial_Sdk_Extra_Frameworks */,
 				6E8D39091903D11C006593F3 /* ShareManger.mm */,
@@ -1509,6 +1579,22 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6EF1304E1903DC7200995257 /* SystemConfiguration.framework */,
+				6EF1304C1903DC4B00995257 /* libsqlite3.dylib */,
+				6EF1304A1903DC2F00995257 /* EventKit.framework */,
+				6EF130481903DC1700995257 /* Social.framework */,
+				6EF130461903DC0E00995257 /* PassKit.framework */,
+				6EF130441903DC0600995257 /* StoreKit.framework */,
+				6EF130421903DBFD00995257 /* CoreLocation.framework */,
+				6EF130401903DBF400995257 /* AdSupport.framework */,
+				6EF1303E1903DBEB00995257 /* CoreText.framework */,
+				6EF1303C1903DBD800995257 /* MediaPlayer.framework */,
+				6EF1303A1903DBCB00995257 /* CoreMedia.framework */,
+				6EF130381903DBB700995257 /* MobileCoreServices.framework */,
+				6EF130361903DBA500995257 /* CFNetwork.framework */,
+				6EF130341903DB9C00995257 /* MessageUI.framework */,
+				6EF130321903DB9300995257 /* CoreTelephony.framework */,
+				6EF130301903DB8A00995257 /* Security.framework */,
 				1ACB3243164770DE00914215 /* libcurl.a */,
 				BF170DB212928DE900B8313A /* libxml2.dylib */,
 				BF170DB412928DE900B8313A /* libz.dylib */,
@@ -1996,6 +2082,30 @@
 			path = YiXin;
 			sourceTree = "<group>";
 		};
+		6EF130211903DA0500995257 /* DomobAdSDK */ = {
+			isa = PBXGroup;
+			children = (
+				6EF130221903DA0500995257 /* DMAdView.h */,
+				6EF130231903DA0500995257 /* DMFeedsAdView.h */,
+				6EF130241903DA0500995257 /* DMInterstitialAdController.h */,
+				6EF130251903DA0500995257 /* DMRTSplashAdController.h */,
+				6EF130261903DA0500995257 /* DMSplashAdController.h */,
+				6EF130271903DA0500995257 /* DMTools.h */,
+				6EF130281903DA0500995257 /* DomobAdSDKBundle */,
+				6EF1302A1903DA0500995257 /* libDomobAdSDK.a */,
+			);
+			name = DomobAdSDK;
+			path = ../Classes/DomobAdSDK;
+			sourceTree = "<group>";
+		};
+		6EF130281903DA0500995257 /* DomobAdSDKBundle */ = {
+			isa = PBXGroup;
+			children = (
+				6EF130291903DA0500995257 /* DomobAdSDKBundle.bundle */,
+			);
+			path = DomobAdSDKBundle;
+			sourceTree = "<group>";
+		};
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -2100,6 +2210,7 @@
 				15A3D9961682F7F9002FB0C5 /* CMakeLists.txt in Resources */,
 				6E93820518FAD5AB0092C616 /* gray.png in Resources */,
 				6EF130141903D1A700995257 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
+				6EF1302D1903DA0500995257 /* DomobAdSDKBundle.bundle in Resources */,
 				6EF130161903D1A700995257 /* ios-social-sdk-shake.html in Resources */,
 				6E93820418FAD5AB0092C616 /* dzs.png in Resources */,
 				6EF130051903D1A700995257 /* UMSocialLocalizable.strings in Resources */,
@@ -2199,6 +2310,7 @@
 				15A3D9AB1682F7F9002FB0C5 /* cpSpace.c in Sources */,
 				15A3D9AC1682F7F9002FB0C5 /* cpSpaceComponent.c in Sources */,
 				15A3D9AD1682F7F9002FB0C5 /* cpSpaceHash.c in Sources */,
+				6EF1302B1903DA0500995257 /* ADManger.mm in Sources */,
 				15A3D9AE1682F7F9002FB0C5 /* cpSpaceQuery.c in Sources */,
 				15A3D9AF1682F7F9002FB0C5 /* cpSpaceStep.c in Sources */,
 				15A3D9B01682F7F9002FB0C5 /* cpSpatialIndex.c in Sources */,
@@ -2293,6 +2405,7 @@
 				379BB99A17F03F3700829B88 /* CCArmatureAnimation.cpp in Sources */,
 				379BB99B17F03F3700829B88 /* CCProcessBase.cpp in Sources */,
 				379BB99C17F03F3700829B88 /* CCTween.cpp in Sources */,
+				6EF1302C1903DA0500995257 /* MyDMInterstitialAdControllerDelegate.mm in Sources */,
 				379BB99D17F03F3700829B88 /* CCArmature.cpp in Sources */,
 				379BB99E17F03F3700829B88 /* CCBone.cpp in Sources */,
 				379BB99F17F03F3700829B88 /* CCDatas.cpp in Sources */,
@@ -2415,8 +2528,10 @@
 					"/Users/llb/Documents/code/game_ios/cocos2d-x-2.2.2/projects/TetrisGame/Classes/UMSocial_Sdk_Extra_Frameworks/UMSocial_Shake_Sdk",
 					"/Users/llb/Documents/code/game_ios/cocos2d-x-2.2.2/projects/TetrisGame/Classes/UMSocial_Sdk_Extra_Frameworks/Wechat",
 					"/Users/llb/Documents/code/game_ios/cocos2d-x-2.2.2/projects/TetrisGame/Classes/UMSocial_Sdk_Extra_Frameworks/YiXin",
+					"/Users/llb/Documents/code/game_ios/cocos2d-x-2.2.2/projects/TetrisGame/Classes/DomobAdSDK",
 				);
 				OTHER_CFLAGS = "-O2";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = TetrisGame;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -2476,7 +2591,9 @@
 					"/Users/llb/Documents/code/game_ios/cocos2d-x-2.2.2/projects/TetrisGame/Classes/UMSocial_Sdk_Extra_Frameworks/UMSocial_Shake_Sdk",
 					"/Users/llb/Documents/code/game_ios/cocos2d-x-2.2.2/projects/TetrisGame/Classes/UMSocial_Sdk_Extra_Frameworks/Wechat",
 					"/Users/llb/Documents/code/game_ios/cocos2d-x-2.2.2/projects/TetrisGame/Classes/UMSocial_Sdk_Extra_Frameworks/YiXin",
+					"/Users/llb/Documents/code/game_ios/cocos2d-x-2.2.2/projects/TetrisGame/Classes/DomobAdSDK",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = TetrisGame;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";

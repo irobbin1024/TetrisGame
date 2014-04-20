@@ -4,6 +4,7 @@
 #import "AppDelegate.h"
 #import "RootViewController.h"
 #import "ShareManger.h"
+#import "ADManger.h"
 
 @implementation AppController
 
@@ -38,6 +39,10 @@ static AppDelegate s_sharedApplication;
     ShareManger * shareManger = ShareManger::instance();
     shareManger->setAppKey("5346405656240b070b101c6d");
     shareManger->setUIViewController(viewController);
+    
+    // 多盟广告组件初始化
+    ADManger * adManger = ADManger::instance();
+    adManger->setUIViewController(viewController);
 
     // Set RootViewController to window
     if ( [[UIDevice currentDevice].systemVersion floatValue] < 6.0)
