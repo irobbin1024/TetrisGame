@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>1FB3FD01-3D72-477E-A0B6-D6223FCEA52E</string>
+	<string>7CCD7369-8073-4BAD-89A4-5BCF63542DB0</string>
 	<key>IDESourceControlProjectName</key>
 	<string>TetrisGame</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>461051C6-073D-49F2-A719-E73AABD88DA4</key>
-		<string>https://gitcafe.com/fujaz/TetrisGame.git</string>
+		<key>7FFAEAB4-E1F8-4518-BBDA-F87F724848F0</key>
+		<string>https://github.com/fujaz/TetrisGame.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>proj.ios/TetrisGame.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>461051C6-073D-49F2-A719-E73AABD88DA4</key>
+		<key>7FFAEAB4-E1F8-4518-BBDA-F87F724848F0</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://gitcafe.com/fujaz/TetrisGame.git</string>
+	<string>https://github.com/fujaz/TetrisGame.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>461051C6-073D-49F2-A719-E73AABD88DA4</string>
+	<string>7FFAEAB4-E1F8-4518-BBDA-F87F724848F0</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>461051C6-073D-49F2-A719-E73AABD88DA4</string>
+			<string>7FFAEAB4-E1F8-4518-BBDA-F87F724848F0</string>
 			<key>IDESourceControlWCCName</key>
 			<string>TetrisGame</string>
 		</dict>
